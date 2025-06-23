@@ -9,7 +9,7 @@ from langchain_groq import ChatGroq
 load_dotenv()
 lang_api = os.getenv("lang_api")
 langsmith_project = os.getenv("LANGSMITH_PROJECT")
-Groq_api_key="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" 
+Groq_api_key="API_KEY" 
 
 if lang_api:
     os.environ["lang_api"] = lang_api
